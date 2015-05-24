@@ -7,7 +7,7 @@
 # 5. From the data set in step 4, creates a second, independent tidy data set with 
 #    the average of each variable for each activity and each subject.
 
-# load the used library
+# load the used libraries
 library(dplyr); library(tidyr); library(reshape2)
 
 # 0. Download files if it has not been done before

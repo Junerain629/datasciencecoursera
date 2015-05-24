@@ -57,3 +57,4 @@ There are toally six functions defined in run_analysis.R.
 * rename.activities(data) This function takes a parameter, which must be the result of merge.data(), and substitutes the activity ids with the descriptive names of the respective activities. You do NOT have to execute this function by yourself unless you want to see the result step-by-step. The execution of this function is included in the function clean.dataset().
 * clean.dataset() This function merges datasets, extracts desired columns, and renames activity ids with their descriptive names, and add descriptive names to all the variable names. Executing this function produces the clean (but not tidy) dataset of the project result.
 * tidy.dataset(data) This function takes a paramenter, which must be the result of clean.dataset(), and outputs a tidy dataset that describes the same set of data. Executing this function produces the tidy dataset based on the clean dataset.
+
